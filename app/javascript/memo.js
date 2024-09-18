@@ -1,7 +1,4 @@
 function post (){
-<<<<<<< Updated upstream
-  //リクエストを送信する処理
-=======
   const form = document.getElementById("form");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -11,7 +8,6 @@ function post (){
     XHR.responseType = "json";
     XHR.send(formData);
   });
->>>>>>> Stashed changes
 };
 
 window.addEventListener('turbo:load', post);
