@@ -16,9 +16,9 @@ test:
   username: root
   password:
   host: localhost
-  database: ajax_app_rails7_test
+  database: ajax_app_rails7_41486
 
 production:
   <<: *default
   adapter: postgresql
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['postgresql://ajaxapp_production_9inz_user:QP6xmzFei0rlYKH2mXyUvK9cvNSUDaMf@dpg-crmgja08fa8c73ai4kp0-a/ajaxapp_production_9inz'] %>
